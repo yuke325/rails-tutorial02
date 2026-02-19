@@ -12,7 +12,7 @@ gem 'puma',            '5.6.8'
 gem 'rails', '~> 7.0.10'
 gem 'sassc-rails',     '2.1.2'
 gem 'sprockets-rails', '3.4.2'
-gem 'sqlite3',         '1.6.1'
+gem 'pg'
 gem 'stimulus-rails',  '1.2.1'
 gem 'turbo-rails',     '1.4.0'
 
