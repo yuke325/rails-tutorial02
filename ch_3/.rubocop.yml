@@ -1,1 +1,15 @@
+require:
+  - rubocop-rails
+  - rubocop-rspec
 
+AllCops:
+  TargetRubyVersion: 3.2
+  NewCops: enable
+  Exclude:
+    - 'sample_app/bin/**/*'
+    - 'sample_app/db/schema.rb'
+    - 'sample_app/node_modules/**/*'
+    - 'sample_app/vendor/**/*'
+
+Rails:
+  Enabled: true
